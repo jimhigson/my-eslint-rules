@@ -1,0 +1,19 @@
+{
+  "name": "jimhigson-my-eslint-rules",
+  "version": "1.0.0",
+  "description": "ES Lint rules that I use for my own projects",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jimhigson/my-eslint-rules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimhigson/my-eslint-rules/issues"
+  },
+  "homepage": "https://github.com/jimhigson/my-eslint-rules#readme"
+}
