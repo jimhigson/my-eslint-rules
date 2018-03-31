@@ -7,6 +7,7 @@ npm install --save-dev jimhigson-my-eslint-rules
 ```
 
 ```js
+// copy-pastie-me to .eslintrc.json:
 {
   "extends": "jimhigson-my-eslint-rules"
 }
@@ -16,7 +17,7 @@ Or maybe:
 
 ```js
 
-// copy-pastie-me to .eslintrc:
+// copy-pastie-me to .eslintrc.js:
 
 const defaultsDeep = require( 'lodash.defaultsdeep' );
 
