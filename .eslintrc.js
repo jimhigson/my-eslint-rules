@@ -1,11 +1,14 @@
 'use strict';
 
 module.exports = {
+    extends: 'idiomatic',
     rules: {
         "one-var": 'off',
         "arrow-parens": ["error", "as-needed"],
         "semi": ["error", "never"],
-        "indent": ["error", 4],
+        "indent": ["error", 4, {
+            "SwitchCase": 1
+        } ],
         "max-len": [
             "error",
             {
@@ -15,6 +18,6 @@ module.exports = {
             }
         ],
         'generator-star-spacing': 'off',
-        'func-names': ["error", "as-needed"]
+        'func-names': ["error", "never"]
     }
 }

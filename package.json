@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jimhigson/my-eslint-rules/issues"
   },
-  "homepage": "https://github.com/jimhigson/my-eslint-rules#readme"
+  "homepage": "https://github.com/jimhigson/my-eslint-rules#readme",
+  "peerDependencies": {
+    "eslint-config-idiomatic": "^4.0.0"
+  }
 }
