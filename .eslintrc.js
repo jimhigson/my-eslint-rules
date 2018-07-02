@@ -2,7 +2,14 @@
 
 module.exports = {
     extends: 'idiomatic',
+    env: { 
+        "node": true,
+        es6: true
+    },
     rules: {
+
+        'no-undef': ['error'],
+        'no-unused-vars' : ['error'],
         "one-var": 'off',
         "arrow-parens": ["error", "as-needed"],
         "semi": ["error", "never"],

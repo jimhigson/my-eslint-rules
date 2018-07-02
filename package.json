@@ -1,6 +1,6 @@
 {
   "name": "jimhigson-my-eslint-rules",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "ES Lint rules that I use for my own projects",
   "main": ".eslintrc.js",
   "scripts": {
