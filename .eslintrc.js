@@ -6,8 +6,10 @@ module.exports = {
         "node": true,
         es6: true
     },
+    "parserOptions": {
+        "ecmaVersion": 10
+    },
     rules: {
-
         'no-undef': ['error'],
         'no-unused-vars' : ['error'],
         "one-var": 'off',
@@ -25,6 +27,7 @@ module.exports = {
             }
         ],
         'generator-star-spacing': 'off',
-        'func-names': ["error", "never"]
+        'func-names': ["error", "never"],
+        "quote-props": ["error", "as-needed"]
     }
 }

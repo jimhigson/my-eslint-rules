@@ -4,11 +4,11 @@ Basically, idomatic styling with a few changes
 Unless you want to code like me, nothing to see here, move along.
 
 ```sh
-npm install --save-dev jimhigson-my-eslint-rules
+npm install --save-dev eslint-config-jimhigson-my-eslint-rules
 ```
 
+copy-pastie to .eslintrc.json:
 ```js
-// copy-pastie-me to .eslintrc.json:
 {
   "extends": "jimhigson-my-eslint-rules"
 }
@@ -17,7 +17,7 @@ npm install --save-dev jimhigson-my-eslint-rules
 Or maybe:
 
 ```sh
-npm install --save-dev jimhigson-my-eslint-rules loash.defaultsdeep
+npm install --save-dev eslint-config-jimhigson-my-eslint-rules loash.defaultsdeep
 ```
 
 ```js
@@ -31,12 +31,12 @@ module.exports = defaultsDeep( {
 
   // parser: 'babel-eslint', // probably want this, at least until eslint starts parsing
   // modern js nicely
-}, require( 'jimhigson-my-eslint-rules' ) )
+}, require( 'eslint-config-jimhigson-my-eslint-rules' ) )
 ```
 
 Or even:
 ```sh
-npm install --save-dev jimhigson-my-eslint-rules loash.defaultsdeep eslint-config-react-app
+npm install --save-dev eslint-config-jimhigson-my-eslint-rules loash.defaultsdeep eslint-config-react-app
 ```
 
 ```js
@@ -49,7 +49,7 @@ module.exports = defaultsDeep( {
     // project-specific rules
 },
     require( 'jimhigson-my-eslint-rules' ),
-    require( 'eslint-config-react-app' )
+    require( 'eslint-config-eslint-config-react-app' )
 )
 ```
 
